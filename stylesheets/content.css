@@ -52,11 +52,17 @@ article h3 + img { margin-top: 81px;
 }
 article ul{
   list-style-type: disc;
+  padding-left: 30px;
 
   }
 article ol{
   list-style-type: decimal;
+  padding-left: 30px;
+
   }
   article li {
     margin-top: 3px;
+  }
+  article {
+    margin-bottom: 50px;
   }
