@@ -27,5 +27,14 @@ article > * { width: calc(100% - 40px); }
 
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
-
+article h1 {font-size: 35px; line-height: 42px;}
+article p, article blockquote, article li {font-size: 20px; line-height: 30px;}
+article h1 + p { margin-top: 8px; font-family: 'PT Sans Caption', sans-serif; font-size: 20px; line-height: 30px; color: rgba(0,0,0,.4);
+}
+article h2 { margin-top: 43px; font-size: 30px; line-height: 34px; color: rgba(0, 0, 0, .8);
+}
+article h3 { margin-top: 36px; font-size: 26px; line-height: 32px; color: rgba(0, 0, 0, .8);
+}
+article h4 {
+  margin-top: 20px ; font-size: 22px; line-height: 30px; color: rgba(0, 0, 0, .8);
 }
